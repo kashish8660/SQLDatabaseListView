@@ -32,7 +32,7 @@ public class Contacts {
 
     public Contacts() {
     }
-    public Contacts(int id, String name, String number) {
+    public Contacts(int id, String name, String number) { //you don't need to create some constructor setting 'id', cuz it'll be automatically incremental as it's the primary key
         this.id= id;
         this.name=name;
         this.number= number;
